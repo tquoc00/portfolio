@@ -45,8 +45,8 @@
     transform: translateX(8px);
 }
 
-.project-item:hover + .project-item {
-    border-top-color: rgba(59, 130, 246, 0.15);
+.project-item:has(+ .project-item:hover) {
+    border-bottom-color: rgba(59, 130, 246, 0.15);
 }
 
 /* Number */
