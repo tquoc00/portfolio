@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Senior Software Engineer</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/hero.css">
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/projects.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR (Thanh điều hướng hiện đại) -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">Portfolio<span>.</span></a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero" class="active">Trang chủ</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#journey">Hành trình</a>
+                <a href="#projects">Dự án</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+            <!-- Hamburger menu cho mobile -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-sub">Xin chào, tôi là</span>
+                <h1 class="hero-title">Kỹ Sư Phần Mềm</h1>
+                <p class="hero-desc">
+                    Đam mê xây dựng các hệ thống web mạnh mẽ, giải pháp công nghệ tối ưu mang lại giá trị thực tế và
+                    trải nghiệm mượt mà.
+                </p>
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-primary">Tìm hiểu về tôi</a>
+                    <a href="#projects" class="btn btn-secondary">Xem dự án</a>
+                </div>
+            </div>
+            <!-- Glow Effect làm nền trang trí phía sau -->
+            <div class="hero-glow"></div>
+        </div>
+    </section>
+
+    <!-- STATS COUNTER SECTION (Các con số biết nói) -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-card">
+                <h3 class="stat-number">12+</h3>
+                <p class="stat-label">Dự Án Hoàn Thành</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number">5+</h3>
+                <p class="stat-label">Công Nghệ Làm Chủ</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number">1,500+</h3>
+                <p class="stat-label">Giờ Code Thực Tế</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number">3+</h3>
+                <p class="stat-label">Giải Thưởng & Chứng Chỉ</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <h2 class="section-title">Về Bản Thân</h2>
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <img src="/images/profile.webp" alt="Avatar cá nhân" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h3>Tôi là ai và Định hướng của tôi</h3>
+                    <p>
+                        Tôi hiện là sinh viên chuyên ngành Kỹ thuật Phần mềm. Ngay từ những ngày đầu chạm ngõ lập trình,
+                        tôi đã bị cuốn hút bởi việc biến những dòng code khô khan thành các ứng dụng thực tế chạy mượt
+                        mà trên môi trường Internet.
+                    </p>
+                    <p>
+                        Triết lý làm việc của tôi gói gọn trong 3 từ: **Chỉn chu - Sạch sẽ - Tối ưu**. Tôi không chỉ
+                        viết code cho máy hiểu, tôi viết code để các đồng đội (Developer khác) có thể đọc, hiểu và bảo
+                        trì một cách dễ dàng nhất (Clean Code).
+                    </p>
+
+                    <div class="skills-summary">
+                        <h4>Kỹ năng nổi bật:</h4>
+                        <ul class="skills-list">
+                            <li>Java Web (MVC, Servlets, Jakarta EE)</li>
+                            <li>Frontend (HTML5, CSS3 Grid/Flexbox, ES6+)</li>
+                            <li>Hệ thống nhúng & Robotics (C/C++, PID Control)</li>
+                            <li>Công cụ quản lý: Git, GitHub, Docker</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY JOURNEY SECTION (Timeline hành trình sâu hơn) -->
+    <section id="journey" class="journey-section">
+        <div class="container">
+            <h2 class="section-title">Hành Trình Phát Triển</h2>
+
+            <!-- Timeline: Thể hiện các cột mốc quan trọng một cách trực quan, khoa học -->
+            <div class="timeline">
+                <!-- Mốc 1: Đại học -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Hiện Tại</span>
+                        <h3 class="timeline-title">Sinh Viên Kỹ Thuật Phần Mềm</h3>
+                        <p>Bắt đầu chặng đường học tập chuyên sâu tại trường Đại học. Nghiên cứu sâu về cấu trúc dữ liệu, giải thuật, lập trình hướng đối tượng (OOP) và kiến trúc ứng dụng Web.</p>
+                        
+                        <!-- Phần mở rộng khi hover -->
+                        <div class="timeline-expand">
+                            <div class="timeline-expand-inner">
+                                <img src="/images/timeline-university.jpg" alt="Hành trình đại học" class="timeline-expand-img">
+                                <div class="timeline-expand-details">
+                                    <h4>Chi tiết nổi bật</h4>
+                                    <ul>
+                                        <li>Nghiên cứu sâu cấu trúc dữ liệu & giải thuật nâng cao</li>
+                                        <li>Xây dựng nhiều dự án web fullstack với Java MVC</li>
+                                        <li>Tham gia các cuộc thi lập trình cấp trường</li>
+                                        <li>GPA chuyên ngành ấn tượng trong top đầu lớp</li>
+                                    </ul>
+                                    <div class="timeline-tags">
+                                        <span class="tag">Java</span>
+                                        <span class="tag">OOP</span>
+                                        <span class="tag">SQL</span>
+                                        <span class="tag">Web MVC</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mốc 2: TIA Club -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - 2026</span>
+                        <h3 class="timeline-title">Trưởng Bộ Phận Sáo Trúc tại TIA Club</h3>
+                        <p>Rèn luyện kỹ năng lãnh đạo (Leadership) và quản lý đội nhóm thông qua việc điều hành hoạt động nghệ thuật, tổ chức các buổi biểu diễn và giao lưu văn hóa quốc tế.</p>
+                        
+                        <div class="timeline-expand">
+                            <div class="timeline-expand-inner">
+                                <img src="/images/timeline-tiaclub.png" alt="Hoạt động TIA Club" class="timeline-expand-img">
+                                <div class="timeline-expand-details">
+                                    <h4>Chi tiết nổi bật</h4>
+                                    <ul>
+                                        <li>Điều hành đội nhóm 15+ thành viên bộ phận Sáo Trúc</li>
+                                        <li>Tổ chức 10+ buổi biểu diễn nghệ thuật cấp trường</li>
+                                        <li>Giao lưu văn hóa quốc tế với sinh viên nước ngoài</li>
+                                        <li>Phát triển kỹ năng thuyết trình & lãnh đạo nhóm</li>
+                                    </ul>
+                                    <div class="timeline-tags">
+                                        <span class="tag">Leadership</span>
+                                        <span class="tag">Teamwork</span>
+                                        <span class="tag">Event Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mốc 3: Hệ thống nhúng -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3 class="timeline-title">Nghiên Cứu Hệ Thống Nhúng &amp; AI</h3>
+                        <p>Xây dựng dự án xe robot tự hành áp dụng thuật toán điều khiển PID và tích hợp camera xử lý ảnh (ESP32-CAM) để nhận diện biển báo giao thông thời gian thực.</p>
+                        
+                        <div class="timeline-expand">
+                            <div class="timeline-expand-inner timeline-expand-gallery-layout">
+                                <div class="timeline-gallery">
+                                    <img src="/images/timeline-robot-1.png" alt="Lắp ráp xe robot" class="timeline-gallery-img">
+                                    <img src="/images/timeline-robot-2.png" alt="Khung xe robot với động cơ" class="timeline-gallery-img">
+                                    <img src="/images/timeline-robot-3.png" alt="Robot hoàn thiện với cảm biến" class="timeline-gallery-img">
+                                </div>
+                                <div class="timeline-expand-details">
+                                    <h4>Chi tiết nổi bật</h4>
+                                    <ul>
+                                        <li>Thiết kế mạch điều khiển xe robot 4 bánh tự hành</li>
+                                        <li>Lập trình PID Control trên vi điều khiển ESP32</li>
+                                        <li>Tích hợp ESP32-CAM nhận diện biển báo realtime</li>
+                                        <li>Ứng dụng Computer Vision với OpenCV trên IoT</li>
+                                    </ul>
+                                    <div class="timeline-tags">
+                                        <span class="tag">C/C++</span>
+                                        <span class="tag">ESP32</span>
+                                        <span class="tag">PID</span>
+                                        <span class="tag">OpenCV</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION (Dự án nổi bật - Liên kết tới các dự án thực tế) -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Dự Án Của Tôi</h2>
+            <p class="projects-subtitle">Những dự án tôi đã thực hiện — nhấn vào để xem chi tiết</p>
+
+            <!-- Projects List -->
+            <div class="projects-list">
+
+                <!-- Project Item 1 -->
+                <a href="#" target="_blank" class="project-item" id="project-1">
+                    <div class="project-item-number">01</div>
+                    <div class="project-item-info">
+                        <h3 class="project-item-name">Hệ Thống Quản Lý Sinh Viên</h3>
+                        <p class="project-item-desc">Ứng dụng web fullstack với kiến trúc MVC, hỗ trợ quản lý thông tin sinh viên, điểm số và báo cáo thống kê trực quan.</p>
+                        <div class="project-item-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Jakarta EE</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-item-links">
+                        <span class="project-item-arrow">→</span>
+                    </div>
+                </a>
+
+                <!-- Project Item 2 -->
+                <a href="#" target="_blank" class="project-item" id="project-2">
+                    <div class="project-item-number">02</div>
+                    <div class="project-item-info">
+                        <h3 class="project-item-name">Portfolio Cá Nhân Responsive</h3>
+                        <p class="project-item-desc">Website portfolio hiện đại với thiết kế dark mode, hiệu ứng mượt mà, tương thích hoàn hảo mọi thiết bị từ mobile đến desktop.</p>
+                        <div class="project-item-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-item-links">
+                        <span class="project-item-arrow">→</span>
+                    </div>
+                </a>
+
+                <!-- Project Item 3 -->
+                <a href="#" target="_blank" class="project-item" id="project-3">
+                    <div class="project-item-number">03</div>
+                    <div class="project-item-info">
+                        <h3 class="project-item-name">Xe Robot Tự Hành Thông Minh</h3>
+                        <p class="project-item-desc">Robot 4 bánh tự hành với PID Control, tích hợp ESP32-CAM xử lý ảnh realtime nhận diện biển báo giao thông.</p>
+                        <div class="project-item-tags">
+                            <span class="project-tag">C/C++</span>
+                            <span class="project-tag">ESP32</span>
+                            <span class="project-tag">OpenCV</span>
+                        </div>
+                    </div>
+                    <div class="project-item-links">
+                        <span class="project-item-arrow">→</span>
+                    </div>
+                </a>
+
+                <!-- Thêm dự án mới bằng cách copy block ở trên và sửa href, tên, mô tả -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION (Liên hệ - Thiết kế gọn gàng) -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-header">
+                <h2 class="section-title">Liên Hệ</h2>
+                <p class="contact-subtitle">Sẵn sàng kết nối & hợp tác</p>
+            </div>
+
+            <div class="contact-items">
+                <a href="tel:0815833284" class="contact-row" id="contact-phone">
+                    <span class="contact-row-icon">📱</span>
+                    <span class="contact-row-text">0815 833 284</span>
+                </a>
+                <a href="mailto:tuanquoc206@gmail.com" class="contact-row" id="contact-email">
+                    <span class="contact-row-icon">✉️</span>
+                    <span class="contact-row-text">tuanquoc206@gmail.com</span>
+                </a>
+                <a href="https://github.com/" target="_blank" class="contact-row" id="contact-github">
+                    <span class="contact-row-icon">💻</span>
+                    <span class="contact-row-text">GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 Portfolio<span class="footer-dot">·</span>Thiết kế với ❤️</p>
+        </div>
+    </footer>
+
+    <script src="/js/animation.js"></script>
+    <script src="/js/projects.js"></script>
+</body>
+
+</html>
